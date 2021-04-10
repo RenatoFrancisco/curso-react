@@ -19,7 +19,7 @@ class FormularioCadastro extends Component {
           type="text"
           placeholder="Título"
           className="form-cadastro_input"
-          onChange={this.handleMudancatitulo}
+          onChange={this.handleMudancatitulo.bind(this)}
         />
         <textarea
           rows={15}
